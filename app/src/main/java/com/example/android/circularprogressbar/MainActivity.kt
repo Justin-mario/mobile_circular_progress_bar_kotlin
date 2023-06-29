@@ -107,6 +107,6 @@ fun CircularProgressBar(
 @Composable
 fun GreetingPreview() {
     CircularProgressBarTheme {
-//        CircularProgressBar()
+        CircularProgressBar( percentage = 1f, number = 100)
     }
 }
